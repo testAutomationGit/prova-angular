@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ProvaPageComponent } from './pages/prova-page/prova-page.component';
 
 const routes: Routes = [
-  { path: 'prova', component: ProvaPageComponent},
+  { path: '?prova=true', component: ProvaPageComponent},
 ];
 
 @NgModule({
